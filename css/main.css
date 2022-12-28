@@ -68,6 +68,7 @@ main {
 h3 {
     font-size: 1.3rem;
     margin: 15px 0;
+    margin-bottom: 20px;
 }
 
 .projects_item img {
@@ -81,3 +82,28 @@ h3 {
     margin-top: 5px 0;
 }
 
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.sm {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.5rem;
+    margin-top: 30px;
+}
+
+.sm a {
+    text-decoration: none;
+    color: black;
+}
+
+.h1_c {
+    text-align: center;
+}
+
+.p_c {
+    text-align: center;
+    margin: 20px;
+}
