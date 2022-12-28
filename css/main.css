@@ -52,3 +52,32 @@ li a:hover {
 .about p {
     margin: 20px;
 }
+
+main {
+    text-align: center;
+}
+
+.projects {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1 1 1;
+}
+
+h3 {
+    font-size: 1.3rem;
+    margin: 15px 0;
+}
+
+.projects_item img {
+    width: 150px;
+    height: 150px;
+    margin: 10px 0;
+}
+
+.projects_item a {
+    color: black;
+    margin-top: 5px 0;
+}
+
