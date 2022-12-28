@@ -1,14 +1,14 @@
-const body = document.body;
-const toggleButton = document.getElementById('theme-toggle');
+const body = document.querySelector('body');
+const toggleButton = document.getElementById('toggleDark');
 
-// Define the function to toggle the theme
-function toggleTheme() {
-  if (body.classList.contains('light-theme')) {
-    body.classList.replace('light-theme', 'dark-theme');
+
+toggleButton.addEventListener('click', function() {
+  this.classList.toggle('light-theme');
+  if(this.classList.toggle('dark-theme')) {
+    body.style.backgroundColor = "#28282B";
+    body.style.color = "#FFE5B4";
   } else {
-    body.classList.replace('dark-theme', 'light-theme');
+    body.style.backgroundColor = "#FFE5B4";
+    body.style.color = "#28282B";
   }
-}
-
-// Add an event listener to the toggle button
-toggleButton.addEventListener('click', toggleTheme);
+});

@@ -132,7 +132,7 @@ footer {
     color: #FFFFF0;
 }
 
-.theme-toggle {
+#toggleDark {
     position: fixed;
     top: 10px;
     right: 10px;
@@ -140,6 +140,7 @@ footer {
     color: #FFFFF0;
     border: 1px solid #FFFFF0;
     border-radius: 5%;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 430px){
